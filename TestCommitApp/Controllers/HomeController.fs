@@ -29,3 +29,5 @@ type HomeController (logger : ILogger<HomeController>) =
                 Activity.Current.Id
 
         this.View({ RequestId = reqId })
+
+        //Test change
